@@ -9,8 +9,6 @@ If you'd like to learn more about this style of software architecture, please ch
 ## Branches
 There are three branches in this project to demonstrate various practices:
 
-
------------ below are bullet points
  - [master](https://github.com/matthewrenze/clean-architecture-demo/tree/master) - contains the simplest implementation used to demonstrate the practices taught in the course at the expense of a bit of coupling with the IDbSet interface from Entity Framework
 
  - [dbset-adaptor](https://github.com/matthewrenze/clean-architecture-demo/tree/dbset-adapter) - uses a database adapter to completely decouple the application from the persistence layer -- a cleaner but slightly more complex approach
